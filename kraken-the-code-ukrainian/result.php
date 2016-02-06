@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>Legit-o-Meter</title>
+    <title>ЛЕГЕНДА КРАКЕН: ПЕРЕВІРКА ПРАВДИВОСТІ</title>
     <meta charset="utf-8">
     <link href="//stuff.webmaker.org/makerstrap/latest/makerstrap.complete.min.css" rel="stylesheet">
 
