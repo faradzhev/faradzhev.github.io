@@ -957,6 +957,7 @@ fieldset[disabled]
     box-shadow: 0 2px 2px 0 rgba(85, 172, 238, 0.14), 0 3px 1px -2px rgba(85, 172, 238, 0.2), 0 1px 5px 0 rgba(85, 172, 238, 0.12);
 }
 
+
 .btn.btn-twitter:focus, .btn.btn-twitter:active, .btn.btn-twitter:hover,
 .navbar .navbar-nav > li > a.btn.btn-twitter:focus,
 .navbar .navbar-nav > li > a.btn.btn-twitter:active,
@@ -976,6 +977,37 @@ fieldset[disabled]
 .btn.btn-twitter.btn-white,
 .navbar .navbar-nav > li > a.btn.btn-twitter.btn-white {
     color: #55acee;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
+
+.btn.btn-calendar,
+.navbar .navbar-nav > li > a.btn.btn-calendar {
+    background-color: #4285f4;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(85, 172, 238, 0.14), 0 3px 1px -2px rgba(85, 172, 238, 0.2), 0 1px 5px 0 rgba(85, 172, 238, 0.12);
+}
+
+
+.btn.btn-calendar:focus, .btn.btn-calendar:active, .btn.btn-calendar:hover,
+.navbar .navbar-nav > li > a.btn.btn-calendar:focus,
+.navbar .navbar-nav > li > a.btn.btn-calendar:active,
+.navbar .navbar-nav > li > a.btn.btn-calendar:hover {
+    background-color: #4285f4;
+    color: #fff;
+    box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2);
+}
+
+.btn.btn-calendar.btn-simple,
+.navbar .navbar-nav > li > a.btn.btn-calendar.btn-simple {
+    color: #4285f4;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.btn.btn-calendar.btn-white,
+.navbar .navbar-nav > li > a.btn.btn-calendar.btn-white {
+    color: #4285f4;
     background-color: #FFFFFF;
     box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
 }
