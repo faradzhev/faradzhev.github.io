@@ -23,18 +23,21 @@
 	<link href="assets/css/demo.css" rel="stylesheet" />
 	
 	<style>
-	.page-header, .blog-post .page-header {
+	.page-header, .event-page .page-header {
 		min-height: unset;
 		height: 470px;
 	}
 	.page-header .container {
 		padding-top: 100px;
 	}
+	.event-page .section-text {
+		padding-top: 20px;
+	}
 	</style>
 
 </head>
 
-<body class="blog-post se ction-white">
+<body class="blog-post event-page se ction-white">
 <!-- Navbar -->
 <nav class="navbar na vbar-transparent navbar-fixed-top na vbar-color-on-scroll navbar-inverse">
 	<div class="container">
@@ -85,15 +88,26 @@
 
 <div class="wrapper">
 	
-	<div class="section-space visible-sm visible-xs"></div>
+<!--	<div class="section-space visible-sm visible-xs"></div>-->
 	
-	<div class="page-header header-filter" filter-color="primary" style="ba ckground-image: url('https://i.ytimg.com/vi/RMFHZfxrUbs/maxresdefault.jpg');">
+	<div class="page-header header-filter" filter-color="primary" style="background-image: url('http://www.pu.if.ua/images/2017/GRYDEN/2612/3/31.jpg');"> <!--https://i.ytimg.com/vi/RMFHZfxrUbs/maxresdefault.jpg-->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
-					<h2 class="title">Відкрита лекція "Біохімія кохання"</h2>
+					<h3 class="title">Відкрита лекція "Біохімія кохання"</h3>
 					<h4><b>20 грудня 2017 р. 16:00 - 18:00</b>, <i>Наукова бібліотека ПНУ</i></h4>
-					<a class="btn btn-facebook" href="#"><span class="fa fa-facebook-square"></span> Facebook</a> <a class="btn btn-calendar" href="#"><i class="material-icons">today</i> Google Calendar</a> <a class="btn btn-google" href="#"><i class="material-icons">location_on</i> Google Maps</a>
+					<div class="hidden-xs">
+						<a class="btn btn-warning" href="#"><i class="material-icons">image</i> афіша</a> 
+						<a class="btn btn-facebook" href="#"><i class="fa fa-facebook-square"></i> Facebook</a> 
+						<a class="btn btn-calendar" href="#"><i class="material-icons">today</i> Google Calendar</a> 
+						<a class="btn btn-google" href="#"><i class="material-icons">location_on</i> Google Maps</a>
+					</div>
+					<div class="visible-xs text-center">
+						<a class="btn btn-warning btn-round" href="#"><i class="material-icons">image</i> афіша</a> 
+						<a class="btn btn-facebook btn-round btn-just-icon" href="#"><i class="fa fa-facebook-square"></i><!-- Facebook--></a> 
+						<a class="btn btn-calendar btn-round btn-just-icon" href="#"><i class="material-icons">today</i><!-- Google Calendar--></a> 
+						<a class="btn btn-google btn-round btn-just-icon" href="#"><i class="material-icons">location_on</i><!-- Google Maps--></a>
+					</div>
 				</div>
 				<div class="col-md-5 co l-md-offset-1 hidden-sm hidden-xs">
 					<div class="iframe-container">
@@ -109,8 +123,8 @@
 		<div class="container">
             <div class="section section-text">
                 <div class="row">
-    				<div class="col-xs-8 col-xs-offset-2">
-						<img class="img img-raised img-rounded visible-sm visible-xs" width="100%" src="http://www.pu.if.ua/images/2017/GRYDEN/2612/3/31.jpg">
+    				<div class="col-sm-8 col-sm-offset-2">
+						<!--<img class="img img-raised img-rounded visible-sm visible-xs" width="100%" src="http://www.pu.if.ua/images/2017/GRYDEN/2612/3/31.jpg">-->
 						<p>20 грудня 2017 року о 16:00 год. в приміщенні читального залу ім.Богдана Гаврилишина Наукової бібліотеки університету відбудеться відкрита лекція доцента кафедри біохімії та біотехнології доцента Марії Байляк на тему  - "Біохімія кохання". Захід проходитиме в рамках роботи освітнього проекту «Університет для всіх». Це платформа для організації циклу лекцій, просвітницької та профорієнтаційної роботи серед громадськості Івано-Франківська та області, практично орієнтованих занять, тренінгів, майстер-класів тощо з метою популяризації досягнень сучасної науки і професійних здобутків викладачів та студентів університету.</p>
 						<p>Організатори заходу - Інститут післядипломної освіти та довузівської підготовки Прикарпатського національного університету, кафедра професійної освіти та інноваційних технологій, кафедра біохімії та біотехнології. </p>
 					</div>
@@ -131,20 +145,20 @@
 						<hr />
 
 						<div class="card card-profile card-plain">
-							<h4 class="card-title">Організатор:</h4>
+							<h4 class="card-title hidden-xs">Організатор:</h4>
 							<div class="row">
-								<div class="col-xs-2">
+								<div class="col-sm-2 col-xs-4">
 									<div class="card-avatar">
 										<a href="#">
 											<img class="img" src="https://scontent.fiev9-1.fna.fbcdn.net/v/t1.0-9/20915221_125377291435384_2304806842908992460_n.jpg?oh=353748a1cff26f98e112f1fb158232d1&oe=5AB0CB3E">
 										</a>
 									<div class="ripple-container"></div></div>
 								</div>
-								<div class="col-xs-8">
-									<h5 class="card-title">Наукова бібліотека ПНУ</h5>
+								<div class="col-sm-8 col-xs-8">
+									<h6 class="card-title">Наукова бібліотека ПНУ</h6>
 									<p class="description">м. Івано-Франківськ, вул. Шевченка, 57</p>
 								</div>
-								<div class="col-xs-2">
+								<div class="col-sm-2 hidden-xs">
 									<button type="button" class="btn btn-default pull-right btn-round">Переглянути</button>
 								</div>
 							</div>

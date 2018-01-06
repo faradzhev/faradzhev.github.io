@@ -9626,3 +9626,8 @@ select.selectpicker {
         width: 920px;
     }
 }
+
+/* CUSTOM */
+.card-image a {
+	padding: 100px 0;
+}
