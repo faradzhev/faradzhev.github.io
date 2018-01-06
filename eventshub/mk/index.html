@@ -29,6 +29,15 @@
 	.card-filters ul li {
 		padding: 0;
 	}
+	.card-search .form-group {
+		padding-bottom: 0px !important;
+	}
+	.card-search .btn {
+		margin-top: 0px;
+	}
+	.tag-buttons .btn {
+		margin: 2px 1px;
+	}
 	</style>
 
 </head>
@@ -250,21 +259,25 @@
 	<div class="subscribe-line subscribe-line-image" style="background-image: url('http://invest-if.com/wp-content/uploads/2016/05/Frankivsk-3-min.jpg');"> <!--https://i.ytimg.com/vi/RMFHZfxrUbs/maxresdefault.jpg-->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
+				<div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
 					<div class="text-center">
 						<h3 class="title">Усі події університету на одному ресурсі</h3>
-						<p class="description">
+						<p class="description tag-buttons">
 							<a class="btn btn-sm btn-warning" href="#"><i class="material-icons">search</i> лекція</a>
 							<a class="btn btn-sm btn-success" href="#"><i class="material-icons">search</i> майстер-клас</a>
 							<a class="btn btn-sm btn-info" href="#"><i class="material-icons">search</i> конференція</a>
 							<a class="btn btn-sm btn-danger" href="#"><i class="material-icons">search</i> міжнародна</a>
+							<br>
+							<a class="btn btn-sm btn-primary" href="#"><i class="material-icons">search</i> сьогодні</a>
+							<a class="btn btn-sm btn-primary" href="#"><i class="material-icons">search</i> завтра</a>
+							<a class="btn btn-sm btn-primary" href="#"><i class="material-icons">search</i> цього тижня</a>
 						</p>
 					</div>
-					<div class="card card-raised card-form-horizontal">
+					<div class="card card-raised card-search card-form-horizontal">
 						<div class="card-content">
 							<form method="" action="">
 								<div class="row">
-									<div class="col-sm-8">
+									<div class="col-sm-8 col-xs-7">
 										<div class="input-group">
 											<span class="input-group-addon">
 												<i class="material-icons">search</i>
@@ -272,7 +285,7 @@
 											<input type="" value="" placeholder="ключові слова..." class="form-control" />
 										</div>
 									</div>
-									<div class="col-sm-4">
+									<div class="col-sm-4 col-xs-5">
 										<button type="button" class="btn btn-rose btn-round btn-block">Пошук</button>
 									</div>
 								</div>
@@ -383,9 +396,10 @@
 
 		</div>
 	</div>
-				
+	
+	
 	<div class="main ma in-raised cd-section">
-		<div class="section section-basic">
+		<!--<div class="section section-basic">
 			<div class="container">
 				
 				<div class="row">
@@ -413,15 +427,13 @@
 										<li><a href="#">Закрита подія</a></li>
 									</ul>
 								</div>
-								<!--
 								<a href="#" class="btn btn-white bt n-raise btn-round">
 									Підібрати
 								</a>
-								-->
 							</div>
 						</div>
 						
-					</div> <!-- col-md-3 -->
+					</div>
 					<div class="col-md-9 col-sm-8">
 						
 						<div class="card card-plain card-blog">
@@ -450,7 +462,7 @@
 									</p>
 								</div>
 							</div>
-						</div> <!-- card -->
+						</div>
 						<div class="card card-plain card-blog">
 							<div class="row">
 								<div class="col-md-4 col-sm-6 col-xs-8">
@@ -477,9 +489,9 @@
 									</p>
 								</div>
 							</div>
-						</div> <!-- card -->
+						</div>
 						
-					</div> <!-- col-md-9 -->
+					</div>
 				</div> 
 			</div>
 		</div> <!-- section -->
