@@ -15,21 +15,29 @@
 	margin: 2px 1px;
 }
 /* card-event */
-.index-page .card-event {
-	//height: 500px;
-	//overflow: hidden;
+.card.card-event {
+	height: 450px;
+	overflow: hidden;
+	margin-top: 0;
 }
-.index-page .card-event .card-image {
-	//height: 200px;
+.card.card-event .card-blur {
+	width: 100%;
+	top: 400px;
+	height: 50px;
+	position: absolute;
+	background: linear-gradient(transparent, white);
 }
-.index-page .card-event .card-content {
-	//height: 350px;
+.card.card-event .card-image {
+	margin-top: 15px;
+	height: unset;
+	max-width: 400px;
 }
-.index-page .card-event .card-content .card-description {
-	//max-height: 250px;
-	//overflow: hidden;
-	//text-overflow: ellipsis;
-	//white-space: nowrap;
+.card.card-event .card-image .card-tags {
+	text-align: center;
+	margin-top: -30px;
+}
+.label.label-white {
+    color: black;
 }
 
 /* event-page */
