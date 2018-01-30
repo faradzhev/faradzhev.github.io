@@ -132,8 +132,8 @@
 							<div class="row">
 								<div class="col-sm-5">
 									<div class="form-group label-floating has-warning">
-										<!--<label class="control-label">Початок *</label>-->
-										<input type="text" name="startdate" class="form-control datetimepicker" value="" placeholder="Початок *" required />
+										<label class="control-label">Початок *</label>
+										<input type="text" name="startdate" class="form-control datetimepicker" value="-" required />
 									</div>
 								</div>
 								<div class="col-sm-2 hidden-xs text-center">
@@ -141,8 +141,8 @@
 								</div>
 								<div class="col-sm-5">
 									<div class="form-group label-floating has-warning">
-										<!--<label class="control-label">Завершення *</label>-->
-										<input type="text" name="enddate" class="form-control datetimepicker" value="" placeholder="Завершення *" required />
+										<label class="control-label">Завершення *</label>
+										<input type="text" name="enddate" class="form-control datetimepicker" value="-" required />
 									</div>
 								</div>
 							</div>
@@ -157,8 +157,12 @@
 									</span>
 								</div>
 							</div>
+							<div class="form-group has-warning">
+								<label class="control-label">Адреса події *</label>
+								<input type="text" name="address" id="address" class="form-control" placeholder="університет / місто / вулиця & будинок" value="Прикарпатський національний університет імені Василя Стефаника"/>
+							</div>
 							<div class="form-group label-floating">
-								<label class="control-label">Місце проведення</label>
+								<label class="control-label">Місце події (аудиторія / поверх тощо)</label>
 								<input type="text" name="location" class="form-control"/>
 							</div>
 							<div class="form-group label-floating">
@@ -246,5 +250,16 @@
                 });
 		});
 	</script>
+	
+	<script>
+      function initAutocomplete() {
+        // Create the search box and link it to the UI element.
+        var input = document.getElementById('address');
+        var searchBox = new google.maps.places.Autocomplete(input);
+		searchBox.setComponentRestrictions({'country': 'ua'});
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVmBebknVzMXNLw0Hzzy9KLUefLO1KyIU&libraries=places&callback=initAutocomplete" async defer></script>
+
 
 </html>
