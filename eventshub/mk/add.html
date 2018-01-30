@@ -146,6 +146,14 @@
 									</div>
 								</div>
 							</div>
+							<div class="form-group has-warning">
+								<label class="control-label">Адреса події * <span class="btn btn-warning btn-fab btn-fab-tip" data-toggle="modal" data-target="#addressTip"><span class="fa fa-question"></span></span></label>
+								<input type="text" name="address" id="address" class="form-control" placeholder="місто, вулиця, будинок" value="Івано-Франківськ, Шевченка, 57" required />
+							</div>
+							<div class="form-group has-info">
+								<label class="control-label">Місце події * <span class="btn btn-info btn-fab btn-fab-tip" data-toggle="modal" data-target="#addressTip"><span class="fa fa-question"></span></span></label>
+								<input type="text" name="location" class="form-control" placeholder="заклад / аудиторія тощо" value="25 аудиторія центрального корпусу ПНУ" required />
+							</div>
 							<div class="form-group form-file-upload">
 								<input type="file" id="image" multiple="">
 								<div class="input-group">
@@ -156,14 +164,6 @@
 										</button>
 									</span>
 								</div>
-							</div>
-							<div class="form-group has-warning">
-								<label class="control-label">Адреса події *</label>
-								<input type="text" name="address" id="address" class="form-control" placeholder="університет / місто / вулиця & будинок" value="Прикарпатський національний університет імені Василя Стефаника"/>
-							</div>
-							<div class="form-group label-floating">
-								<label class="control-label">Місце події (аудиторія / поверх тощо)</label>
-								<input type="text" name="location" class="form-control"/>
 							</div>
 							<div class="form-group label-floating">
 								<label class="control-label">Опис події</label>
@@ -193,6 +193,30 @@
 	</div>
 	
 </div>
+
+<div class="modal fade" id="addressTip" tabindex="-1" role="dialog" aria-labelledby="addressTipLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					<i class="material-icons">clear</i>
+				</button>
+				<h4 class="modal-title">Адреса і місце події</h4>
+			</div>
+			<div class="modal-body">
+				<h3>Адреса події</h3>
+				<p><b class="text-warning">Адресою події</b> є поштова <u>адреса будинку / вулиці / міста</u>, де відбувається подія.</p>
+				<p>Цей параметр використовується для відображення події на Google Maps і <b>не є видимим для користувачів</b>.</p>
+				<p><b>Приклад:</b> <code>Івано-Франківськ, Шевченка, 57</code> або <code>Urban Space 100, м. Івано-Франківськ</code></p>
+				<h3>Місце події</h3>
+				<p><b class="text-info">Місце події</b> використовується виключно для інформування користувачів.</p>
+				<p>Цей параметр має бути зрозумілий для відвідувачів, адже <b>відображається на сторінці події</b>.</p>
+				<p><b>Приклад:</b> <code>25 аудиторія центрального корпусу ПНУ</code> або <code>Urban Space 100</code></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  End Modal -->
 
 <footer class="footer footer-black">
 	<div class="container">

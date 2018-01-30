@@ -43,3 +43,14 @@
 .event-page .section-text {
 	padding-top: 20px;
 }
+
+/* add page */
+.pac-logo::after {
+	/*display: none;*/
+}
+.btn.btn-fab.btn-fab-tip {
+	width: 30px;
+	min-width: 30px;
+	height: 30px;
+	padding-top: 1px;
+}
