@@ -1,0 +1,45 @@
+/* index-page  */
+.index-page .card-filters ul {
+	padding: 5px 0;
+}
+.index-page .card-filters ul li {
+	padding: 0;
+}
+.index-page .card-search .form-group {
+	padding-bottom: 0px !important;
+}
+.index-page .card-search .btn {
+	margin-top: 0px;
+}
+.index-page .tag-buttons .btn {
+	margin: 2px 1px;
+}
+/* card-event */
+.index-page .card-event {
+	//height: 500px;
+	//overflow: hidden;
+}
+.index-page .card-event .card-image {
+	//height: 200px;
+}
+.index-page .card-event .card-content {
+	//height: 350px;
+}
+.index-page .card-event .card-content .card-description {
+	//max-height: 250px;
+	//overflow: hidden;
+	//text-overflow: ellipsis;
+	//white-space: nowrap;
+}
+
+/* event-page */
+.event-page .page-header, .event-page .page-header {
+	min-height: unset;
+	height: 470px;
+}
+.event-page .page-header .container {
+	padding-top: 100px;
+}
+.event-page .section-text {
+	padding-top: 20px;
+}
