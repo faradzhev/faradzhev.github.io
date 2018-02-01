@@ -32,11 +32,12 @@
 	height: unset;
 	max-width: 400px;
 }
-.card.card-event .card-image .card-tags, .card.card-event .card-img-top .card-tags {
+.card-tags {
 	text-align: center;
 	margin-top: -30px;
 }
-.label.label-white {
+.card-tags .label.label-white {
+	box-shadow: 0 0 1px 1px gray;
     color: black;
 }
 
