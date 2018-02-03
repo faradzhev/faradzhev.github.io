@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="uk">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Organizer</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+    <link href="assets/css/events.css" rel="stylesheet" /> <!-- ADD EVERYWHERE -->
+
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar na vbar-transparent navbar-fixed-top na vbar-color-on-scroll navbar-inverse">
+	<div class="container">
+        <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle" data-toggle="collapse">
+	        	<span class="sr-only">Toggle navigation</span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	    	</button>
+	    	<a class="navbar-brand" href="index.html">Events HUB</a>
+	    </div>
+		
+	    <div class="collapse navbar-collapse">
+			<form class="navbar-form navbar-left hidden-xs" role="search">
+				<div class="form-group form-white">
+					<input type="text" class="form-control" placeholder="Пошук">
+				</div>
+				<button type="submit" class="btn btn-white btn-raised btn-fab btn-fab-mini"><i class="material-icons">search</i></button>
+			</form>
+			<ul class="nav navbar-nav navbar-left">
+				<li>
+					<a href="#">
+						<i class="material-icons">apps</i> Календар
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="material-icons">event_busy</i> Минулі події
+					</a>
+				</li>
+	    	</ul>
+	    	
+	    	<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="add.html">
+						<i class="material-icons">add_box</i> Додати подію
+					</a>
+				</li>
+				<li>
+					<a href="login.html">
+						<i class="material-icons">input</i> Вхід / Реєстрація
+					</a>
+				</li>
+	    	</ul>
+	    </div>
+	</div>
+</nav>
+<!-- End Navbar -->
+
+<div class="profile-page">
+	
+	<div class="page-header header-filter" data-parallax="true" style="background-image: url('http://195.162.82.229:8899/media/default.png');"></div>
+
+	<div class="main main-raised">
+		<div class="profile-content">
+            <div class="container">
+
+                <div class="row">
+	                <div class="col-xs-6 col-xs-offset-3">
+        	           <div class="profile">
+	                        <div class="avatar">
+	                            <img src="https://scontent.fiev9-1.fna.fbcdn.net/v/t1.0-9/20915221_125377291435384_2304806842908992460_n.jpg?oh=353748a1cff26f98e112f1fb158232d1&oe=5AB0CB3E" alt="Circle Image" class="img-circle img-responsive img-raised">
+	                        </div>
+	                        <div class="name">
+	                            <h3 class="title">Наукова бібліотека ПНУ</h3>
+								<h6>вул. Шевченка, 57 (вхід з Чорновола)</h6>
+	                        </div>
+	                    </div>
+    	            </div>
+                    <div class="col-xs-2 follow">
+	                   <button class="btn btn-fab btn-danger" rel="tooltip" title="До улюблених">
+                            <i class="material-icons">favorite</i>
+                        </button>
+	                </div>
+                </div>
+                
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="tabs">
+							<div class="nav-align-center">
+								<ul class="nav nav-pills nav-pills-icons" role="tablist">
+									<li>
+										<a href="#past" role="tab" data-toggle="tab">
+											Попередні події
+										</a>
+									</li>
+									<li class="active">
+										<a href="#future" role="tab" data-toggle="tab">
+											Майбутні події
+										</a>
+									</li>
+								</ul>
+
+
+							</div>
+						</div>
+						<!-- End Tabs -->
+					</div>
+				</div>
+				<div class="tab-content">
+					<div class="tab-pane work" id="past">
+						<div class="row">
+						
+							<div class="row collections">
+								<div class="col-md-6">
+									<div class="card card-background" style="background-image: url('http://195.162.82.229/media/events-img/27356248_790644721123240_131557988449337911_o.jpg')">
+										<a href="#pablo"></a>
+										<div class="card-content">
+											<label class="label label-primary">01.02.2018 11:00-18:00</label>
+											<a href="#pablo">
+												<h2 class="card-title">Якась подія</h2>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card card-background" style="background-image: url('http://195.162.82.229/media/default.png')">
+										<a href="#pablo"></a>
+										<div class="card-content">
+											<label class="label label-primary">01.02.2018 11:00-18:00</label>
+											<a href="#pablo">
+												<h2 class="card-title">Ще подія
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card card-background" style="background-image: url('http://195.162.82.229:8899/media/default.png')">
+										<a href="#pablo"></a>
+										<div class="card-content">
+											<label class="label label-primary">01.02.2018 11:00-18:00</label>
+											<a href="#pablo">
+												<h2 class="card-title">Щось ще ще ще ще ще ще ще ще ще ще ще ще ще ще ще ще ще ще ще</h2>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card card-background" style="background-image: url('http://195.162.82.229/media/events-img/maxresdefault.jpg')">
+										<a href="#pablo"></a>
+										<div class="card-content">
+											<label class="label label-primary">01.02.2018 11:00-18:00</label>
+											<a href="#pablo">
+												<h2 class="card-title">ПФуркуфклпьупьцузсь пфуцьпзшцу ШАОУШМОУА п тцущтп шщцу</h2>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="tab-pane active work" id="future">
+						<div class="row">
+						
+							<div class="row collections">
+								<div class="col-md-6">
+									<div class="card card-background" style="background-image: url('http://195.162.82.229/media/events-img/27356248_790644721123240_131557988449337911_o.jpg')">
+										<a href="#pablo"></a>
+										<div class="card-content">
+											<label class="label label-primary">Spring 2016</label>
+											<a href="#pablo">
+												<h2 class="card-title">Stilleto</h2>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card card-background" style="background-image: url('http://195.162.82.229:8899/media/default.png')">
+										<a href="#pablo"></a>
+										<div class="card-content">
+											<label class="label label-primary">Spring 2016</label>
+											<a href="#pablo">
+												<h2 class="card-title">High Heels</h2>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card card-background" style="background-image: url('http://195.162.82.229:8899/media/default.png')">
+										<a href="#pablo"></a>
+										<div class="card-content">
+											<label class="label label-primary">Summer 2016</label>
+											<a href="#pablo">
+												<h2 class="card-title">Flats</h2>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card card-background" style="background-image: url('http://195.162.82.229:8899/media/events-img/maxresdefault.jpg')">
+										<a href="#pablo"></a>
+										<div class="card-content">
+											<label class="label label-primary">Winter 2015</label>
+											<a href="#pablo">
+												<h2 class="card-title">Men's Sneakers</h2>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+	
+	<div class="section-space section-gray"></div>
+	
+</div>
+
+<footer class="footer footer-black">
+	<div class="container">
+		<a class="footer-brand" href="#">Events PNU</a>
+
+		<ul class="pull-center">
+			<li>
+				<a href="#">
+					Усі події
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					Організатори
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					Додати подію
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					UNI-HUB
+				</a>
+			</li>
+		</ul>
+
+		<ul class="social-buttons pull-right">
+			<li>
+				<a href="#" target="_blank" class="btn btn-just-icon btn-simple">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+			</li>
+		</ul>
+
+	</div>
+</footer>
+
+</body>
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+</html>
