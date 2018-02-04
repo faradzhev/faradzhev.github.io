@@ -40,6 +40,12 @@
 	box-shadow: 0 0 1px 1px gray;
     color: black;
 }
+.pagination > li > a, .pagination > li > span {
+	min-width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+}
 
 /* event-page */
 .event-page .page-header, .event-page .page-header {
